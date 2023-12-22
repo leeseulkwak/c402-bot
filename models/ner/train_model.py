@@ -128,4 +128,3 @@ test_tags = sequences_to_tag(y_test)    # 실제 NER
 # F1 평가 결과
 print(classification_report(test_tags, pred_tags))
 print("F1-score: {:.1%}".format(f1_score(test_tags, pred_tags)))
-

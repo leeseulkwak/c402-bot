@@ -11,6 +11,6 @@ p = Preprocess(word2index_dic=os.path.join(cwd,'train_tools','dict','chatbot_dic
 
 ner=NerModel(model_name=os.path.join(cwd,'models','ner','ner_model.h5'), proprocess=p)
 
-query='영화 예매할께요'
+query='서울의 봄 예매께요'
 predicts=ner.predict(query)
 print(predicts)

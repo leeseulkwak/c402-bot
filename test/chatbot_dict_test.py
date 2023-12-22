@@ -12,7 +12,7 @@ with open(f, "rb") as f: #open은 따로 해서 rb로 읽어 주기
     word_index=pickle.load(f)
     f.close()
 
-sent="영화 예매할꼐요"
+sent="서울의 봄 예매할께요"
 
 #전처리 객체 생성
 p = Preprocess(userdic=os.path.join(cwd, 'utils', 'user_dic.tsv'))
